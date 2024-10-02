@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Awesome Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Awesome Game!</h1>
+        </header>
+
+        <section class="game-description">
+            <p>Are you ready for an epic adventure? Play Awesome Game and conquer the realm!</p>
+            <button class="play-btn" onclick="startGame()">Play Now</button>
+        </section>
+
+        <section id="game-container" style="display: none;">
+            <canvas id="gameCanvas" width="800" height="600"></canvas>
+        </section>
+
+        <footer>
+            <p>© 2024 Awesome Game Studios. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
